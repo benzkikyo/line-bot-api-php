@@ -23,7 +23,7 @@ if ( sizeof($request_array['events']) > 0 )
 		$text = $event['message']['text'];
 		
 		if(($text == "ทดสอบ")||($text == "COVID-19")||($text == "อยากทราบยอด COVID-19 ครับ")){
-			$temp = 8;
+			$temp = '827','4';
 			$reply_message = 'ผู้ป่วยสะสม '.$temp.'คน';
 		}
 		else if(($text== "ตอนนี้อยู่ที่ไหน")||($text== "ตอนนี้อยู่ไหน")||($text== "อยู่ที่ไหน")||($text== "อยู่ไหน")){
