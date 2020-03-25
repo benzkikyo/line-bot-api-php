@@ -25,7 +25,7 @@ if ( sizeof($request_array['events']) > 0 )
    {
 		$text = $event['message']['text'];
 		
-		if(($text == "ทดสอบ")||($text == "อยากทราบยอด COVID-19 ครับ")||($text == "COVID-19")){
+		if(($text == "COVID")||($text == "อยากทราบยอด COVID-19 ครับ")||($text == "COVID-19")){
 			
 			$reply_message = '"รายงานสถานการณ์ ยอดผู้ติดเชื้อไวรัสโคโรนา 2019 (COVID-19) ในประเทศไทย"
 			ผู้ป่วยสะสม	จำนวน 934 ราย
