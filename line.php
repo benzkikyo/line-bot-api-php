@@ -10,7 +10,7 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 if ( sizeof($request_array['events']) > 0 )
 {
 
- foreach ($request_array['events'] as $event)
+ foreach ($request_array['events'] as $click_final)
  {
   $reply_message = '';
   $reply_token = $event['replyToken'];
