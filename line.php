@@ -21,7 +21,6 @@ if ( sizeof($request_array['events']) > 0 )
    if( $event['message']['type'] == 'text' )
    {
 		$text = $event['message']['text'];
-		รายงาน
 		if(($text == "ทดสอบ")||($text == "COVID-19")||($text == "อยากทราบยอด COVID-19 ครับ")){
 			$temp = '827';
 			$reply_message = 'ผู้ป่วยสะสม '.$temp.'คน';
