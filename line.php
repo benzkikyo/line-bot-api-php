@@ -22,7 +22,7 @@ if ( sizeof($request_array['events']) > 0 )
    {
 		$text = $event['message']['text'];
 		
-		if(($text == "COVID-19")||($text == "อุณหภูมิวันนี้")||($text == "อุณหภูมิ")){
+		if(($text == "อุณหภูมิตอนนี้")||($text == "อุณหภูมิวันนี้")||($text == "อุณหภูมิ")){
 			$temp = 30;
 			$reply_message = 'ผู้ป่วยสะสม '.$temp.'คน';
 		}
