@@ -25,7 +25,7 @@ if ( sizeof($request_array['events']) > 0 )
 		if(($text == "อยากทราบยอดCOVID-19")||($text == "อยากทราบยอดCOVID-19 ครับ")||($text == "COVID-19")){
 			$temp = 27;
 			$reply_message = 'ขณะนี้อุณหภูมิที่ '.$temp.'°C องศาเซลเซียส';
-			$temp = 27;
+			$temp1 = 28;
 			$reply_message = 'ขณะนี้อุณหภูมิที่ '.$temp.'°C องศาเซลเซียส';
 			$temp = 27;
 			$reply_message = 'ขณะนี้อุณหภูมิที่ '.$temp.'°C องศาเซลเซียส';
